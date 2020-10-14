@@ -13,7 +13,7 @@
 			{
 				"name": "octoboxio/octobox",
 				"tag": "latest",
-				"digest": "b8b0532313026fd763182a7bffef7e3492f33b2212f88d87396e8a5d1d5a1f1e",
+				"digest": "5a1f178dba8d295abd1bda910a14e3245b12e4233b7fffc864847a82a9ef90b9",
 				"serviceName": "app",
 				"dockerfile": ""
 			},
