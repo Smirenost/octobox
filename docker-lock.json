@@ -4,7 +4,7 @@
 			{
 				"name": "ruby",
 				"tag": "2.7.1-alpine",
-				"digest": "73814d17e9f746ca21a67a4cde96ab81e858bbe9e6bf78257fbb5def033f2b82"
+				"digest": ""
 			}
 		]
 	},
@@ -13,19 +13,19 @@
 			{
 				"name": "octoboxio/octobox",
 				"tag": "latest",
-				"digest": "ea353ed5dba9b13f4e28e4cfe65a6b8aed11e02326427b32d7fd0c0ebd6c4166",
+				"digest": "",
 				"service": "app"
 			},
 			{
 				"name": "postgres",
 				"tag": "9.6-alpine",
-				"digest": "9c5d3eac42cde39a8e3291128153bab5a9bc13c49de4a4f0c52b00b0d01d229b",
+				"digest": "",
 				"service": "database.service.octobox.internal"
 			},
 			{
 				"name": "redis",
 				"tag": "4.0-alpine",
-				"digest": "aaf7c123077a5e45ab2328b5ef7e201b5720616efac498d55e65a7afbb96ae20",
+				"digest": "",
 				"service": "redis.service.octobox.internal"
 			}
 		]
