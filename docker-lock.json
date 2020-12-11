@@ -13,13 +13,13 @@
 			{
 				"name": "octoboxio/octobox",
 				"tag": "latest",
-				"digest": "cf5ef971eb48b3dc8f0804f98287ec2bab6d8fbfce7067907ad2659b69ac05fa",
+				"digest": "39965c43674faa6d631df9a98f7aece2627bf67e7d4a92f001a14e782a6f6240",
 				"service": "app"
 			},
 			{
 				"name": "postgres",
 				"tag": "9.6-alpine",
-				"digest": "86d21ee93db8eef6a82acfc4c7a242b43f20834377e63a10a3f8db3130f13cc2",
+				"digest": "28593605df42cd4a3e0073e20b748fd64782fcd3806342865beffae5ad1306ca",
 				"service": "database.service.octobox.internal"
 			},
 			{
