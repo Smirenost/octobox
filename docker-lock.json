@@ -19,7 +19,7 @@
 			{
 				"name": "postgres",
 				"tag": "9.6-alpine",
-				"digest": "6af36a5e75da8434e65de33db4c2d69c8a4bc7343480ff8add463c92839d9efa",
+				"digest": "5d57fc67807c16be8c784494795482edfca5fc4e0fb51f7ae4aea5767d5ef627",
 				"service": "database.service.octobox.internal"
 			},
 			{
