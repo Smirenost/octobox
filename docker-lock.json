@@ -1,0 +1,33 @@
+{
+	"dockerfiles": {
+		"Dockerfile": [
+			{
+				"name": "ruby",
+				"tag": "2.7.1-alpine",
+				"digest": "73814d17e9f746ca21a67a4cde96ab81e858bbe9e6bf78257fbb5def033f2b82"
+			}
+		]
+	},
+	"composefiles": {
+		"docker-compose.yml": [
+			{
+				"name": "octoboxio/octobox",
+				"tag": "latest",
+				"digest": "5298aa0a799225d5220c52536c3deba5ede3e5af34a363d02498ff5a0dba0a4f",
+				"service": "app"
+			},
+			{
+				"name": "postgres",
+				"tag": "9.6-alpine",
+				"digest": "0927ac1a17d8404e65a4ecd4d2135e27742f512ced6d0a60c9e5802712ade21d",
+				"service": "database.service.octobox.internal"
+			},
+			{
+				"name": "redis",
+				"tag": "4.0-alpine",
+				"digest": "aaf7c123077a5e45ab2328b5ef7e201b5720616efac498d55e65a7afbb96ae20",
+				"service": "redis.service.octobox.internal"
+			}
+		]
+	}
+}
