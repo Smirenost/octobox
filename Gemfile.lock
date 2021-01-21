@@ -319,7 +319,7 @@ GEM
       sprockets (>= 3.0.0)
     sql_queries_count (0.0.1)
       rails (> 3.0.0)
-    thor (1.0.1)
+    thor (1.1.0)
     thread_safe (0.3.6)
     thwait (0.2.0)
       e2mmap
