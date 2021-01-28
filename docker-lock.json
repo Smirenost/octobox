@@ -13,7 +13,7 @@
 			{
 				"name": "octoboxio/octobox",
 				"tag": "latest",
-				"digest": "db24de98dfa68a2970f92e18cd20b88755d9c4335635957fcb33a64bfa9b987b",
+				"digest": "e91e5094dcac984158d533dc1a0652f5dfe27d55e42e3f82f9abdfba64297c13",
 				"service": "app"
 			},
 			{
