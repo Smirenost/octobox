@@ -91,7 +91,8 @@ GEM
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.7)
     connection_pool (2.2.3)
-    crack (0.4.4)
+    crack (0.4.5)
+      rexml
     crass (1.0.6)
     debug_inspector (0.0.3)
     dotenv (2.7.6)
@@ -166,7 +167,9 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.2)
@@ -267,6 +270,7 @@ GEM
     redis (4.2.2)
     request_store (1.5.0)
       rack (>= 1.4)
+    rexml (3.2.4)
     rgb (0.1.0)
     ruby-enum (0.8.0)
       i18n
@@ -340,7 +344,7 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webmock (3.9.1)
+    webmock (3.12.2)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
