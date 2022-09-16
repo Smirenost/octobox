@@ -90,7 +90,7 @@ GEM
     commonmarker (0.21.0)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.7)
-    connection_pool (2.2.3)
+    connection_pool (2.3.0)
     crack (0.4.4)
     crass (1.0.6)
     debug_inspector (0.0.3)
