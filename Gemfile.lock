@@ -93,6 +93,7 @@ GEM
     connection_pool (2.2.3)
     crack (0.4.4)
     crass (1.0.6)
+    date (3.3.3)
     debug_inspector (0.0.3)
     dotenv (2.7.6)
     dotenv-rails (2.7.6)
@@ -161,13 +162,16 @@ GEM
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     lumberjack (1.2.8)
-    mail (2.7.1)
+    mail (2.8.0.1)
       mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
     mimemagic (0.3.5)
-    mini_mime (1.0.2)
+    mini_mime (1.1.2)
     mini_portile2 (2.4.0)
     minitest (5.14.2)
     mocha (1.11.2)
@@ -176,6 +180,15 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nenv (0.3.0)
+    net-imap (0.3.4)
+      date
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.1)
+      timeout
+    net-smtp (0.3.3)
+      net-protocol
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
@@ -325,6 +338,7 @@ GEM
       e2mmap
     tilt (2.0.10)
     timecop (0.9.1)
+    timeout (0.3.1)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
